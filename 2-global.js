@@ -1,0 +1,11 @@
+// GLOBALS    - NO WINDOW !
+// __DIRNAME  - PATH TO CURRENT DIRECTORY
+// __FILENAME - FILE NAME
+// REQUIRE    - FUNCTION TO USE MODULES (COMMONJS)
+// MODULE     - INFO ABOUT CURRENT MODULE (FILE)
+// PROCESS    - INFO ABOUT ENV WHERE THE PROGRAM IS BEING EXECUTED
+
+console.log(__dirname)
+setInterval(() => {
+    console.log('hello world')
+}, 1000)
